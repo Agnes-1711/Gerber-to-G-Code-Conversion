@@ -1694,5 +1694,29 @@ M05
 M02
 %
 ```
+
+# Cutting G Code:
+```
+%
+( CopperCAM - 02/10/2025 / ISO-Mill Output )
+( C:\COPPERCAM\CopperCAM.iso created 27/11/2025 at 15:58 )
+( Workpiece dimensions: 92.38 x 44.44 x 1 mm )
+G21 G40 G54
+G80 G90 G94
+( Tool #2 "Basic Cutter" / Diameter 3 mm )
+T2 M06
+M03 S12000
+G00 X91.34 Y1.04
+G00 Z0
+G01 F60 Z-1
+G01 F300 Y43.4
+G01 X1.04
+G01 Y1.04
+G01 X91.34
+G00 Z2
+M05
+M02
+%
+```
 # Result
 Thus the Gerber File is converted G-Code using Copper CAM.
